@@ -5,7 +5,7 @@
 #include <sys/socket.h>
 #include <net/if.h>
 int main() {
-    int sockfd, ret;
+    int sockfd, ret, test;
     struct ifreq *hw_addr;
     hw_addr = (struct ifreq *)malloc(sizeof(struct ifreq));
 
